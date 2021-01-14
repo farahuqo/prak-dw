@@ -1,0 +1,34 @@
+/* body{
+	background-color: #7B6858;
+} */
+
+.judul{
+	font-family: Trajan Pro Regular;
+	font-size: 25px;
+}
+
+.judul:hover{
+	color: brown;
+}
+
+.kunjung{
+	border-bottom: 1px solid black;
+}
+
+footer{
+	padding: 20px;
+	font-size: 12px;
+	background-color: #EEEEEE;
+}
+
+.social{
+	float: right;
+}
+
+.social span{
+	margin: auto 5px;
+}
+
+.social span:hover{
+	color: grey;
+}

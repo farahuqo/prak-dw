@@ -1,0 +1,122 @@
+body{
+	background-image: url(pics/wwood.jpg);
+	background-position: center;
+}
+
+/*My Cafe*/
+.judul{
+	font-family: Trajan Pro Regular;
+	font-size: 25px;
+}
+
+.judul:hover{
+	color: brown;
+}
+.nav-item{
+	padding: 5px;
+}
+.kunjung{
+	border-bottom: 1px solid black;
+}
+
+.carousel-item .display-4{
+	margin-bottom: 85px;
+	margin-top: 30px;
+}
+
+.carousel-item{
+	height: 35rem;
+	background: black;
+	color: white;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+.teks{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 85px;
+}
+.overlay-image{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0; 
+	background-position: center;
+	background-size: cover;
+	opacity: .5;
+}
+
+/* Drink n Food */
+.card{
+	position: relative; 
+	overflow: hidden;
+}
+.card:before{
+	position: absolute;
+	content: ''; 
+	width: 100%;
+	height: 220%;
+	background: rgba(124, 99, 25, 0.7);
+	top: -50%; 
+	left: -100%;
+	z-index: 1;
+	transition: .5s; 
+}
+.card:hover:before{
+ 	left: 0%;
+}
+.card img{
+	width: 100%;
+	height: auto;
+}
+.card-text{
+	width: 100%;
+	padding: 0 20px;
+	position: absolute;
+	bottom: -100%; 
+	color: #fff;
+	left: 0; 
+	z-index: 2;
+	transition: 1.1s; 
+}
+.card:hover .card-text{
+	bottom: 30px;
+}
+
+/*Contact*/
+.contact{
+	background-color: #f2f2f2;
+	margin: 5% auto 5%;
+	padding: 20px; 
+	border-radius: 5px;
+}
+
+/*About*/
+.social{
+	display: flex;
+	justify-content: center;
+}
+
+.social span{
+	margin: auto 15px;
+}
+
+.fa:hover{
+	color: grey;
+}
+
+.fa{
+	color: black;
+}
+
+.footer{
+	padding: 15px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #EEEEEE;
+	width: 100%;
+}

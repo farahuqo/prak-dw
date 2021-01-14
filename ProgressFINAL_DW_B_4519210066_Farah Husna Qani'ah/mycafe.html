@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Cafe - Home</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		
+		<div class="container">
+			<!-- Brand -->
+			<a class="navbar-brand" href="mycafe.html">
+				<img src="pics/logo1.png" width="60em" alt="My Cafe">
+			</a>
+			<a class="navbar-brand" href="mycafe.html"><span class="judul">MY CAFÉ</span></a>
+			<!-- Toggler Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenav" aria-controls="collapsiblenav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="collapsiblenav">
+				
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="drink.html">DRINKS</a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cake.html">CAKES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">ABOUT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">CONTACT</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="overlay-image" style="background-image:url(pics/croissant.jpg)"></div>
+				<div class="carousel-caption d-md-block">
+					<h5 class="display-4">Its crunchiness that makes you wanting more.</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="overlay-image" style="background-image:url(pics/teh.jpg)"></div> 
+				<div class="carousel-caption d-md-block">
+					<h5 class="display-4">A good day begin with a sip of tea.</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="overlay-image" style="background-image:url(pics/kohi.jpg)"></div> 
+				<div class="carousel-caption d-md-block">
+					<h5 class="display-4">Coffee and Love taste the same, BitterSweet!</h5>
+				</div>
+			</div>
+		</div>
+		<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<div class="footer">
+		&copy; 2020 My Café
+	</div> 
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script> 
+</body>
+</html>

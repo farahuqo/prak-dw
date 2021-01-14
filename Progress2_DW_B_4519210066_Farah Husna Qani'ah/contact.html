@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Cafe - Contact</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		
+		<div class="container">
+			<!-- Brand -->
+			<a class="navbar-brand" href="mycafe.html">
+				<img src="pics/logo1.png" width="60em" alt="My Cafe">
+			</a>
+			<a class="navbar-brand" href="mycafe.html"><span class="judul">MY CAFÉ</span></a>
+			<!-- Toggler Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenav" aria-controls="collapsiblenav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="collapsiblenav">
+				
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="drink.html">DRINKS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cake.html">CAKES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">ABOUT</a>
+					</li>
+					<li class="nav-item active kunjung">
+						<a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<div class="container contact">
+		<h2 style="text-align: center">CONTACT US</h2><hr>
+		<p class="lead"><strong>Need help with something? Send us your questions.</strong></p><br>
+		<form>
+			<div class="row">
+
+				<div class="col-md-6 mb-3">
+					<label for="firstn" class="lead">First Name</label>
+					<input type="text" class="form-control" id="firstn" placeholder="First name">
+				</div>
+				<div class="col-md-6 mb-3">
+					<label for="lastn" class="lead">Last Name</label>
+					<input type="text" class="form-control" id="lastn" placeholder="Last name">
+				</div>
+				<div class="col-md-6 mb-3">
+					<label for="mail" class="lead">Email Address</label>
+					<input type="email" id="mail" class="form-control" placeholder="Email">
+				</div>
+				<div class="col-md-6 mb-3">
+					<label for="subjek" class="lead">Subject</label>
+					<input type="text" id="subjek" class="form-control" placeholder="Subject">
+				</div>
+				<div class="col-md-12 mb-3">
+					<label for="msg" class="lead">Message</label>
+					<textarea class="form-control" id="msg" rows="4" placeholder="Text Your Message Here..."></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary ml-3 mb-3">Send Message</button>
+				
+			</div>
+		</form>
+	</div>
+
+	<div class="footer">
+		&copy; 2020 My Café
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script> 
+</body>
+</html>
